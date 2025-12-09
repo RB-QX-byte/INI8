@@ -7,7 +7,7 @@ A full-stack web application for patients to upload, view, download, and delete 
 ![Tech Stack](https://img.shields.io/badge/Database-MongoDB-47A248?style=flat&logo=mongodb)
 ![Tech Stack](https://img.shields.io/badge/Styling-TailwindCSS-38B2AC?style=flat&logo=tailwindcss)
 
-## 🚀 Features
+## Features
 
 - **Upload** PDF documents with drag-and-drop support
 - **View** PDFs in-app with split-view layout
@@ -20,7 +20,7 @@ A full-stack web application for patients to upload, view, download, and delete 
 - Success/error notifications
 - Responsive design for all screen sizes
 
-## 📋 Prerequisites
+## Prerequisites
 
 - Node.js v18 or higher
 - npm (comes with Node.js)
@@ -38,7 +38,7 @@ A full-stack web application for patients to upload, view, download, and delete 
 2. Create a free cluster
 3. Get your connection string and set it as `MONGODB_URI` environment variable
 
-## 🛠️ Installation & Setup
+## Installation & Setup
 
 ### 1. Clone the repository
 
@@ -80,7 +80,7 @@ The frontend will start at **http://localhost:5173** (or next available port)
 
 Navigate to **http://localhost:5173** to use the application.
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 patient-portal/
@@ -135,14 +135,14 @@ curl -X POST http://localhost:3000/documents/upload \
 curl http://localhost:3000/documents
 ```
 
-## 🌙 Dark Mode
+## Dark Mode
 
 The application includes a dark/light theme toggle:
 - Click the theme button in the header to switch
 - Your preference is saved in localStorage
 - Smooth transitions between themes
 
-## ⚠️ Notes
+## Notes
 
 - Requires **MongoDB** to be running locally or via MongoDB Atlas
 - Only PDF files are accepted (MIME type validation)
@@ -150,7 +150,7 @@ The application includes a dark/light theme toggle:
 - Files are stored in `backend/uploads/` directory
 - Database: MongoDB `patient-portal` database, `documents` collection
 
-## 📝 Design Document
+## Design Document
 
 See [design.md](./design.md) for:
 - Tech stack choices and justifications
@@ -159,6 +159,6 @@ See [design.md](./design.md) for:
 - Data flow descriptions
 - Scaling considerations
 
-## 📄 License
+## License
 
 This project is created as part of a Full Stack Developer assessment.
